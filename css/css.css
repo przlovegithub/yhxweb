@@ -578,6 +578,7 @@ li {
 
 .footer {
     width: 100%;
+    min-width: 1200px;
     height: 132px;
     background: #323639;
     font-size: 12px;
@@ -796,8 +797,8 @@ li {
 }
 
 .nybanner {
-    /* width: 100%; */
-    width: 1200px;
+    width: 100%;
+    min-width: 1200px;
     position: relative;
     z-index: 0;
     overflow: hidden;

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>北京亿辉祥建筑工程有限公司</title>
+    <meta name="keywords" content="北京亿辉祥建筑工程有限公司" />
+    <meta name="description" content="北京亿辉祥建筑工程有限公司" />
+    <link type="text/css" rel="stylesheet" href="../css/css.css" />
+    <script type='text/javascript' src='../js/jquery-1.9.1.min.js'></script>
+</head>
+
+<body>
+    <!--广告-->
+    <div class="header">
+        <div class="header_wrap clearfix">
+            <div class="logo">
+                <img src="../images/logo.jpg" />
+                <h1>北京亿辉祥建筑工程有限公司</h1>
+            </div>
+
+            <div class="nav">
+                <ul>
+                    <li class="">
+                        <a href="../index.html">网站首页</a>
+                    </li>
+                    <li class="">
+                        <a href="./about.html">公司简介</a>
+                    </li>
+                    <li class="on">
+                        <a href="./product.html">服务项目</a>
+                    </li>
+                    <li class="">
+                        <a href="./show.html">相关资质</a>
+                    </li>
+                    <li class="">
+                        <a href="./contact.html">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="nybanner">
+        <div class="">
+            <div class="pro-switch">
+                <div class="slider">
+                    <div class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <div class="img">
+                                    <img src="../images/banner1.jpg" height="100%" width "100%" alt="" />
+                                </div>
+                            </li>
+                            <li>
+                                <div class="img">
+                                    <img src="../images/banner2.jpg" height="100%" width "100%" alt="" />
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script defer src="../js/slider.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    start: function (slider) {
+                        $('body').removeClass('loading');
+                    },
+                    controlNav: true,
+                    directionNav: true,
+                    startAt: 0,
+                    slideshow: true,
+                    slideshowSpeed: 3000,
+                    animationSpeed: 600,
+                    direction: "horizontal",
+                    prevText: ' <img src = "../images/index2l.png" > ',
+                    nextText: ' <img src = "../images/index2r.png" > ',
+                    after: function (slider) {}
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+                $('.product_nav li').each(function (index) {
+                    $(this).click(function () {
+                        $(this).addClass("activedOn").siblings().removeClass("activedOn");
+                        $($(".product")[index]).show().siblings().hide();
+                    })
+                });
+            })
+        </script>
+    </div>
+    <div style="clear:both;"></div>
+
+    <div class="main">
+        <div class="warp">
+
+            <div class="main_right">
+                <div class="daohang">您所在的位置：
+                    <a href="../index.html">网站首页</a> > 服务项目 >
+                </div>
+                <div class="product_show clearfix">
+                    <ul class="product_nav">
+                        <li class="activedOn">工程建设</li>
+                        <li>机械租赁</li>
+                        <li>普通货运</li>
+                        <li>土方开槽</li>
+                        <li>渣土运输</li>
+                        <li>园林绿化</li>
+                    </ul>
+                    <div class="productList">
+                        <div class="product actived">
+                            <ul>
+
+                                <li>
+                                    <a href="./picshow.html?name=construction&id=000">
+                                        <img src="../../images/uploadpic/construction000.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=construction&id=000">工程建设</a>
+                                    </h2>
+                                </li>
+
+                                <li>
+                                    <a href="./picshow.html?name=construction&id=001">
+                                        <img src="../images/uploadpic/construction001.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=construction&id=001">工程建设</a>
+                                    </h2>
+                                </li>
+
+                                <li>
+                                    <a href="./picshow.html?name=construction&id=002">
+                                        <img src="../images/uploadpic/construction002.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=construction&id=002">工程建设</a>
+                                    </h2>
+                                </li>
+                            </ul>
+
+                            <!-- <div class="jlfanye">
+                        <a href="javascript:;">上一页</a>
+                        <a href="?page=1" style="color:red;">1</a>
+                        <a href="?page=2">2</a>
+                        <a href="?page=3">3</a>
+                        <a href="?page=2">下一页</a>
+                    </div> -->
+
+                        </div>
+                        <div class="product ">
+                            <ul>
+                                <li>
+                                    <a href="./picshow.html?name=lease&id=000">
+                                        <img src="../../images/uploadpic/lease000.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=lease&id=000">机械租赁</a>
+                                    </h2>
+                                </li>
+
+                                <li>
+                                    <a href="./picshow.html?name=lease&id=001">
+                                        <img src="../images/uploadpic/lease001.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=lease&id=001">机械租赁</a>
+                                    </h2>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="product">
+                            <ul>
+                                <li>
+                                    <a href="./picshow.html?name=freight&id=000">
+                                        <img src="../../images/uploadpic/freight000.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=freight&id=000">普通货运</a>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product">
+                            <ul>
+                                <li>
+                                    <a href="./picshow.html?name=soilslotting&id=000">
+                                        <img src="../../images/uploadpic/soilslotting000.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=soilslotting&id=000">土方开槽</a>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product">
+                            <ul>
+                                <li>
+                                    <a href="./picshow.html?name=muchtransport&id=000">
+                                        <img src="../../images/uploadpic/muchtransport000.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=muchtransport&id=000">渣土运输</a>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product">
+                            <ul>
+                                <li>
+                                    <a href="./picshow.html?name=landscaping&id=000">
+                                        <img src="../../images/uploadpic/landscaping000.jpg" />
+                                    </a>
+                                    <h2>
+                                        <a href="./picshow.html?name=landscaping&id=000">园林绿化 </a>
+                                    </h2>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="main foot">
+            <a href="../index.html">网站首页</a>&nbsp;｜&nbsp;
+            <a href="./about.html">公司简介</a>&nbsp;｜&nbsp;
+            <a href="./product.html">服务项目</a>&nbsp;｜&nbsp;
+            <a href="./show.html">相关资质</a>&nbsp;｜&nbsp;
+            <a href="./contact.html">联系我们</a>
+            <br> 版权所有 &nbsp; 北京亿辉祥建筑工程有限公司
+        </div>
+    </div>
+</body>
+
+</html>
+
+<!--浮动QQ-->
+<!--<div class="fix_qq">
+    <div class="fix_qq_top"></div>
+        <div class="fix_qq_center">
+        在线客服<br>
+        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=11111111&amp;site=qq&amp;menu=yes"><img src="http://wpa.qq.com/pa?p=2:11111111:51" alt="点击这里给我发消息" border="0" align="absmiddle" title="点击这里给我发消息"></a><br>
+        </div>
+    <div class="fix_qq_foot"> </div>
+</div>-->

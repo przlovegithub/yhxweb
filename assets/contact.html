@@ -217,18 +217,18 @@
                                     var _iw = createInfoWindow(i);
                                     var _marker = marker;
                                     _marker.openInfoWindow(_iw);
-                                    // _marker.addEventListener("click", function () {
-                                    //     this.openInfoWindow(_iw);
-                                    // });
+                                    _marker.addEventListener("click", function () {
+                                        this.openInfoWindow(_iw);
+                                    });
                                     _iw.addEventListener("open", function () {
                                         _marker.getLabel().hide();
                                     })
                                     _iw.addEventListener("close", function () {
                                         _marker.getLabel().show();
                                     })
-                                    // label.addEventListener("click", function () {
-                                    //     _marker.openInfoWindow(_iw);
-                                    // })
+                                    label.addEventListener("click", function () {
+                                        _marker.openInfoWindow(_iw);
+                                    })
                                     if (!!json.isOpen) {
                                         label.hide();
                                         _marker.openInfoWindow(_iw);
